@@ -1,0 +1,39 @@
+.header-wrapper{
+    display: flex;
+    flex-flow: column;
+}
+
+.offer-text{
+    font-size: 20px;
+    margin-left: 48.5%;
+}
+
+.rectangle {
+    width: 3.5%;
+    height: 5px;
+    background: darkorange;
+    margin-left: 51.5%;
+    margin-top: 0.5%;
+}
+
+.offer-container{
+   display: flex;
+   justify-content: space-around;
+}
+
+._alignment{
+   text-align: center;
+}
+
+._flex-end {
+    align-self: flex-end;
+}
+
+.text-alignment{
+    position: relative;
+    top: 20px;
+}
+
+.img{
+   margin: 0 auto;
+}
