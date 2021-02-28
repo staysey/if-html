@@ -1,7 +1,13 @@
+.container-wrapper{
+    max-width: 1440px;
+    max-height: 587px;
+}
+
 .header-wrapper{
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-top: 120px;
 }
 
 .offer-text{
@@ -10,13 +16,16 @@
 
 .rectangle {
     width: 50px;
-    height: 5px;
+    height: 4px;
     background: darkorange;
+    margin-top: 20px;
 }
 
 .offer-container{
    display: flex;
    justify-content: space-around;
+   padding-top: 72px;
+   padding-bottom: 122px;
 }
 
 ._alignment{
