@@ -1,19 +1,17 @@
 .header-wrapper{
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .offer-text{
     font-size: 20px;
-    margin-left: 48.5%;
 }
 
 .rectangle {
-    width: 3.5%;
+    width: 50px;
     height: 5px;
     background: darkorange;
-    margin-left: 51.5%;
-    margin-top: 0.5%;
 }
 
 .offer-container{
