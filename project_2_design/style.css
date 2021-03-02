@@ -1,0 +1,46 @@
+.container-wrapper{
+    max-width: 1440px;
+    max-height: 587px;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.offer-text{
+    font-size: 20px;
+}
+
+.rectangle {
+    width: 50px;
+    height: 4px;
+    background: darkorange;
+    margin-top: 20px;
+}
+
+.offer-container{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 72px;
+   padding-bottom: 122px;
+}
+
+._alignment{
+   text-align: center;
+}
+
+._flex-end {
+    align-self: flex-end;
+}
+
+.text-alignment{
+    position: relative;
+    top: 20px;
+}
+
+.img{
+   margin: 0 auto;
+}
