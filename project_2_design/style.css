@@ -1,6 +1,24 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(fonts/Roboto-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url(fonts/Roboto-Medium.woff2) format('woff2');
+}
+
+body{
+    font-family: 'Roboto';
+}
+
 .container-wrapper{
     max-width: 1440px;
-    max-height: 587px;
 }
 
 .header-wrapper{
@@ -12,6 +30,7 @@
 
 .offer-text{
     font-size: 20px;
+    font-weight: 500;
 }
 
 .rectangle {
@@ -26,6 +45,7 @@
    justify-content: space-around;
    padding-top: 72px;
    padding-bottom: 122px;
+   font-weight: 400;
 }
 
 ._alignment{
