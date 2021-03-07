@@ -14,6 +14,7 @@
 }
 
 body{
+    margin: 0 auto;
     font-family: 'Roboto';
 }
 
@@ -63,4 +64,38 @@ body{
 
 .img{
    margin: 0 auto;
+}
+
+.footer{
+    width: 1440px;
+    height: 630px;
+    background-color: #10367C;
+}
+
+.footer-columns{
+    max-width: 1440px;
+    padding-top: 120px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+}
+
+
+.first-column{
+    padding-left: 104px;
+    padding-right: 223px;
+}
+
+.second-column{
+    padding-right: 294px;
+}
+
+.third-column{
+    padding-right: 272px;
+}
+
+.end-text{
+    color: white;
+    padding-top: 64px;
+    padding-left: 103px;
 }
