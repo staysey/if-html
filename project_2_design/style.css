@@ -67,8 +67,6 @@ body{
 }
 
 .footer{
-    width: 1440px;
-    height: 630px;
     background-color: #10367C;
 }
 
@@ -78,24 +76,13 @@ body{
     color: white;
     display: flex;
     flex-flow: row;
+    justify-content: space-around;
 }
 
-
-.first-column{
-    padding-left: 104px;
-    padding-right: 223px;
-}
-
-.second-column{
-    padding-right: 294px;
-}
-
-.third-column{
-    padding-right: 272px;
-}
 
 .end-text{
     color: white;
     padding-top: 64px;
     padding-left: 103px;
+    padding-bottom: 120px;
 }
