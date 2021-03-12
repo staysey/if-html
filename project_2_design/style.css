@@ -18,6 +18,170 @@ body{
     font-family: 'Roboto';
 }
 
+.trip-house-container{
+    background-image: url("images/castelmezzano.jpg");
+    background-position: 50% 0%;
+    min-height: 100vh;
+    max-width: 1440px;
+}
+
+.upper-part{
+    display: flex;
+    flex-flow: row;
+}
+
+.upper-text{
+    font-weight: 400;
+}
+
+.trip-house-logo{
+    padding-top: 51px;
+    padding-left: 104px;
+    width: 205px;
+    height: 40px;
+}
+
+.text-with-rect {
+    padding-top: 58px;
+    display: flex;
+    flex-flow: column;
+    padding-left: 684px;
+    padding-right: 24px;
+    height: 44px;
+}
+
+.trip-house-rectangle {
+    width: 43px;
+    height: 4px;
+    background: darkorange;
+}
+
+.first-upper-text{
+    padding-bottom: 10px;
+}
+.upper-text{
+    color: white;
+}
+.account-circle{
+    padding-top: 51px;
+}
+.second-upper-text{
+    padding-top: 58px;
+    padding-right: 48px;
+}
+.night-img{
+    padding-top: 54px;
+    padding-right: 24px;
+}
+.main-text-wrapper{
+    padding-right: 794px;
+    padding-top: 177px;
+    width: 542px;
+    height: 118px;
+}
+
+.main-text{
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.bottom-text{
+    display: flex;
+    color: white;
+    padding-top: 100px;
+}
+.bottom-first-text{
+    padding-left: 128px;
+    padding-right: 221px;
+    min-width: 246px;
+}
+.bottom-second-text{
+    min-width: 173px;
+}
+.bottom-rect-part{
+    padding-left: 104px;
+    padding-right: 104px;
+}
+.bottom-rect{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 1190px;
+    height: 67px;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: black;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+input{
+    border: white;
+    border-radius: 8px;
+}
+
+.rect-for-first-label{
+    width: 467px;
+    height: 64px;
+}
+
+.rect-for-first-label::placeholder{
+    padding-left: 24px;
+    padding-right: 358px;
+}
+
+.rect-for-sec-label{
+    display: flex;
+    align-items: center;
+    width: 259px;
+    height: 64px;
+    border: 3px solid #F5BD41;
+    border-radius: 8px;
+}
+
+.rect-for-sec-label::placeholder{
+    padding-left: 24px;
+}
+
+.rect-for-third-label{
+    width: 305px;
+    height: 64px;
+}
+
+.rect-for-third-label::placeholder{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.rect-for-fourth-label{
+    display: flex;
+    align-items: center;
+    width: 192px;
+    height: 66px;
+    background: #3077C6;
+    border: 3px solid #3077C6;
+    border-radius: 8px;
+}
+
+.fourth-rect-text{
+    color: white;
+    padding-left: 57px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.button-container{
+    padding-top: 120px;
+    padding-left: 585px;
+}
+.google-play-img{
+    padding-right: 17px;
+}
+
 .container-wrapper{
     max-width: 1440px;
 }
