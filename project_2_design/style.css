@@ -35,19 +35,19 @@ body{
 }
 
 .trip-house-logo{
-    padding-top: 51px;
-    padding-left: 104px;
+    padding-top: 50px;
+    padding-left: 105px;
     width: 205px;
     height: 40px;
 }
 
 .text-with-rect {
-    padding-top: 58px;
+    padding-top: 60px;
     display: flex;
     flex-flow: column;
-    padding-left: 684px;
-    padding-right: 24px;
-    height: 44px;
+    padding-left: 685px;
+    padding-right: 25px;
+    height: 45px;
 }
 
 .trip-house-rectangle {
@@ -63,18 +63,18 @@ body{
     color: white;
 }
 .account-circle{
-    padding-top: 51px;
+    padding-top: 50px;
 }
 .second-upper-text{
-    padding-top: 58px;
-    padding-right: 48px;
+    padding-top: 60px;
+    padding-right: 50px;
 }
 .night-img{
-    padding-top: 54px;
-    padding-right: 24px;
+    padding-top: 55px;
+    padding-right: 25px;
 }
 .main-text-wrapper{
-    padding-right: 794px;
+    padding-right: 795px;
     padding-top: 177px;
     width: 542px;
     height: 118px;
@@ -160,8 +160,8 @@ input{
 .rect-for-fourth-label{
     display: flex;
     align-items: center;
-    width: 192px;
-    height: 66px;
+    width: 195px;
+    height: 70px;
     background: #3077C6;
     border: 3px solid #3077C6;
     border-radius: 8px;
