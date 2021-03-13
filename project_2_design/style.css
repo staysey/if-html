@@ -18,11 +18,14 @@ body{
     font-family: 'Roboto';
 }
 
+.svg-container{
+    display: none;
+}
 .trip-house-container{
     background-image: url("images/castelmezzano.jpg");
     background-position: 50% 0%;
     min-height: 100vh;
-    max-width: 1440px;
+    min-width: 1440px;
 }
 
 .upper-part{
@@ -63,6 +66,8 @@ body{
     color: white;
 }
 .account-circle{
+    width: 40px;
+    height: 40px;
     padding-top: 50px;
 }
 .second-upper-text{
@@ -70,6 +75,8 @@ body{
     padding-right: 50px;
 }
 .night-img{
+    width: 30px;
+    height: 30px;
     padding-top: 55px;
     padding-right: 25px;
 }
@@ -188,6 +195,11 @@ input{
     padding-right: 17px;
 }
 
+.app-store-img{
+    width: 120px;
+    height: 40px;
+}
+
 .container-wrapper{
     max-width: 1440px;
 }
@@ -210,15 +222,26 @@ input{
     background: darkorange;
     margin-top: 20px;
 }
+@media only screen and (min-width: 1000px){
+    .offer-container {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 72px;
+        padding-bottom: 122px;
+        font-weight: 400;
+    }
+    .adaptive-logo{
+        display: none;
+    }
+    .sm-footer{
+        display: none;
+    }
 
-.offer-container{
-   display: flex;
-   justify-content: space-around;
-   padding-top: 72px;
-   padding-bottom: 122px;
-   font-weight: 400;
+    .end-text{
+        padding-left: 103px;
+    }
+
 }
-
 ._alignment{
    text-align: center;
 }
@@ -234,6 +257,11 @@ input{
 
 .img{
    margin: 0 auto;
+}
+
+#img3{
+    width: 100px;
+    height: 68px;
 }
 
 .footer{
@@ -253,6 +281,5 @@ input{
 .end-text{
     color: white;
     padding-top: 64px;
-    padding-left: 103px;
     padding-bottom: 120px;
 }
