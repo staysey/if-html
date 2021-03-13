@@ -166,6 +166,12 @@ input{
     border: 3px solid #3077C6;
     border-radius: 8px;
 }
+[type="date"] {
+
+}
+.calendar-1{
+    padding-right: 5px;
+}
 
 .fourth-rect-text{
     color: white;
