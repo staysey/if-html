@@ -1,6 +1,25 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(fonts/Roboto-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url(fonts/Roboto-Medium.woff2) format('woff2');
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
 .container-wrapper{
     max-width: 1440px;
-    max-height: 587px;
 }
 
 .header-wrapper{
@@ -12,6 +31,7 @@
 
 .offer-text{
     font-size: 20px;
+    font-weight: 500;
 }
 
 .rectangle {
@@ -26,6 +46,7 @@
    justify-content: space-around;
    padding-top: 72px;
    padding-bottom: 122px;
+   font-weight: 400;
 }
 
 ._alignment{
@@ -43,4 +64,25 @@
 
 .img{
    margin: 0 auto;
+}
+
+.footer{
+    background-color: #10367C;
+}
+
+.footer-columns{
+    max-width: 1440px;
+    padding-top: 120px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+
+.end-text{
+    color: white;
+    padding-top: 64px;
+    padding-left: 103px;
+    padding-bottom: 120px;
 }
