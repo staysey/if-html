@@ -14,27 +14,13 @@
 }
 :root{
     --ig-col-width: 7.14vw;
+    --sm-col-width: 15vw;
 }
 
 body{
     margin: 0 auto;
     font-family: 'Roboto';
 }
-
-.ig-col-1{ width: var(--ig-col-width); }
-.ig-col-2{ width: calc(var(--ig-col-width)*2); }
-.ig-col-3{ width: calc(var(--ig-col-width)*3); }
-.ig-col-4{ width: calc(var(--ig-col-width)*4); }
-.ig-col-5{ width: calc(var(--ig-col-width)*5); }
-.ig-col-6{ width: calc(var(--ig-col-width)*6); }
-.ig-col-7{ width: calc(var(--ig-col-width)*7); }
-.ig-col-8{ width: calc(var(--ig-col-width)*8); }
-.ig-col-9{ width: calc(var(--ig-col-width)*9); }
-.ig-col-10{ width: calc(var(--ig-col-width)*10); }
-.ig-col-11{ width: calc(var(--ig-col-width)*11); }
-.ig-col-12{ width: calc(var(--ig-col-width)*12); }
-.ig-col-13{ width: calc(var(--ig-col-width)*13); }
-.ig-col-14{ width: 100vw; }
 
 .svg-container{
     display: none;
@@ -287,6 +273,21 @@ input{
 }
 
 @media only screen and (min-width: 1000px){
+    .ig-col-1{ width: var(--ig-col-width); }
+    .ig-col-2{ width: calc(var(--ig-col-width)*2); }
+    .ig-col-3{ width: calc(var(--ig-col-width)*3); }
+    .ig-col-4{ width: calc(var(--ig-col-width)*4); }
+    .ig-col-5{ width: calc(var(--ig-col-width)*5); }
+    .ig-col-6{ width: calc(var(--ig-col-width)*6); }
+    .ig-col-7{ width: calc(var(--ig-col-width)*7); }
+    .ig-col-8{ width: calc(var(--ig-col-width)*8); }
+    .ig-col-9{ width: calc(var(--ig-col-width)*9); }
+    .ig-col-10{ width: calc(var(--ig-col-width)*10); }
+    .ig-col-11{ width: calc(var(--ig-col-width)*11); }
+    .ig-col-12{ width: calc(var(--ig-col-width)*12); }
+    .ig-col-13{ width: calc(var(--ig-col-width)*13); }
+    .ig-col-14{ width: 100vw; }
+
     .offer-container {
         display: flex;
         justify-content: space-around;

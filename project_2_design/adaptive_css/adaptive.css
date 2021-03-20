@@ -1,6 +1,13 @@
 
 
 @media only screen and (max-width: 1000px){
+    .sm-col-1{ width: var(--sm-col-width); }
+    .sm-col-2{ width: calc(var(--sm-col-width)*2); }
+    .sm-col-3{ width: calc(var(--sm-col-width)*3); }
+    .sm-col-4{ width: calc(var(--sm-col-width)*4); }
+    .sm-col-5{ width: calc(var(--sm-col-width)*5); }
+    .sm-col-6{ width: calc(var(--sm-col-width)*6); }
+
     .offer-container{
         display: flex;
         flex-direction: column;
