@@ -220,7 +220,6 @@ input{
 }
 
 .homes-main-text{
-    font-size: 20px;
     font-weight: 500;
     padding-bottom: 105px;
 }
@@ -318,6 +317,11 @@ input{
 
     .arrow2{
         display: none;
+    }
+
+
+    .homes-main-text{
+        font-size: 20px;
     }
 
 }
