@@ -245,10 +245,6 @@ input{
     padding-bottom: 120px;
 }
 
-.home4-with-arrow{
-    display: flex;
-    align-items: center;
-}
 .arrow{
     margin-left: -25px;
     width: 40px;
@@ -312,6 +308,16 @@ input{
     .img2::after{ padding-top: 60px; }
     .img3::after{ padding-top: 60px; }
     .img4::after{ padding-top: 60px; }
+
+
+    .home4-with-arrow{
+        display: flex;
+        align-items: center;
+    }
+
+    .arrow2{
+        display: none;
+    }
 
 }
 ._alignment{
