@@ -48,7 +48,7 @@ body{
 
 .upper-part{
     display: flex;
-    flex-flow: row;
+    justify-content: space-between;
 }
 
 .upper-text{
@@ -56,30 +56,26 @@ body{
 }
 
 .trip-house-logo{
+    padding-left: 100px;
     padding-top: 50px;
-    padding-left: 105px;
     width: 205px;
     height: 40px;
 }
 
-.text-with-rect {
-    padding-top: 60px;
+.stays-and-attractions-cont{
     display: flex;
-    flex-flow: column;
-    padding-left: 685px;
-    padding-right: 25px;
-    height: 45px;
+    justify-content: flex-start;
 }
 
-.trip-house-rectangle {
+.first-upper-text:hover::after{
+    display: block;
+    content: '';
+    margin-top: 12px;
     width: 43px;
     height: 4px;
     background: darkorange;
 }
 
-.first-upper-text{
-    padding-bottom: 10px;
-}
 .upper-text{
     color: white;
 }
@@ -88,9 +84,21 @@ body{
     height: 40px;
     padding-top: 50px;
 }
+.first-upper-text{
+    padding-top: 60px;
+    padding-right: 50px;
+}
 .second-upper-text{
     padding-top: 60px;
     padding-right: 50px;
+}
+.second-upper-text:hover::after{
+    display: block;
+    content: '';
+    margin-top: 12px;
+    width: 78px;
+    height: 4px;
+    background: darkorange;
 }
 .night-img{
     width: 30px;
@@ -99,7 +107,7 @@ body{
     padding-right: 25px;
 }
 .main-text-wrapper{
-    padding-right: 795px;
+    padding-left: 15px;
     padding-top: 177px;
     width: 542px;
     height: 118px;
@@ -201,8 +209,9 @@ input{
 }
 
 .button-container{
+    display: flex;
+    justify-content: space-around;
     padding-top: 120px;
-    padding-left: 585px;
 }
 .google-play-img{
     padding-right: 17px;
@@ -213,9 +222,52 @@ input{
     height: 40px;
 }
 
-.container-wrapper{
-    max-width: 1440px;
+.home-container{
+    background-color: #EAF0F9;
 }
+
+.home-container-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.homes-main-text{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 105px;
+}
+
+.home-pics-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+.home4-with-arrow{
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    margin-left: -25px;
+    width: 40px;
+    height: 40px;
+}
+
+._blue{
+    color: #3077C6;
+}
+
+._grey{
+    color: #BFBFBF;
+}
+
+._text_decoration{
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
 
 .header-wrapper{
     display: flex;
@@ -229,12 +281,15 @@ input{
     font-weight: 500;
 }
 
-.rectangle {
+.header-wrapper::after{
+    display: block;
+    content: '';
     width: 50px;
     height: 4px;
     background: darkorange;
     margin-top: 20px;
 }
+
 @media only screen and (min-width: 1000px){
     .offer-container {
         display: flex;
