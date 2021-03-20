@@ -149,7 +149,6 @@ input{
 }
 
 .rect-for-first-label{
-    width: 467px;
     height: 64px;
 }
 
@@ -161,7 +160,6 @@ input{
 .rect-for-sec-label{
     display: flex;
     align-items: center;
-    width: 259px;
     height: 64px;
     border: 3px solid #F5BD41;
     border-radius: 8px;
@@ -172,7 +170,6 @@ input{
 }
 
 .rect-for-third-label{
-    width: 305px;
     height: 64px;
 }
 
