@@ -103,4 +103,13 @@
     .sign-up-wrapper{
         display: none;
     }
+    .book-now{
+        display: none;
+    }
+    .arrow-cont{
+        display: none;
+    }
+    .dest-pics-container{
+        padding-bottom: 40px;
+    }
 }

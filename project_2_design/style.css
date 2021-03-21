@@ -341,13 +341,6 @@ input{
     justify-content: flex-start;
 }
 
-.book-now{
-    margin-left: -65%
-}
-
-
-
-
 
 .header-wrapper{
     display: flex;
@@ -426,7 +419,9 @@ input{
     .dest-main-text{
         font-size: 20px;
     }
-
+    .book-now{
+        margin-left: -65%
+    }
 
 }
 ._alignment{
