@@ -75,19 +75,34 @@
     <symbol id="book" viewBox="0 0 100 68">
         <path d="M16.6667 9H91.6667V0.666668H16.6667C12.0833 0.666668 8.33333 4.41667 8.33333 9V54.8333H0V67.3333H58.3333V54.8333H16.6667V9ZM95.8333 17.3333H70.8333C68.5417 17.3333 66.6667 19.2083 66.6667 21.5V63.1667C66.6667 65.4583 68.5417 67.3333 70.8333 67.3333H95.8333C98.125 67.3333 100 65.4583 100 63.1667V21.5C100 19.2083 98.125 17.3333 95.8333 17.3333ZM91.6667 54.8333H75V25.6667H91.6667V54.8333Z" fill="#3077C6"/>
     </symbol>
-
+    <symbol id="arrow" viewBox="0 0 48 48">
+        <g filter="url(#filter0_d)">
+            <circle cx="24" cy="20" r="20" fill="#F3F3F4"/>
+            <path d="M19.9412 29.8235L26.1 21.6118C26.6333 20.9007 26.6333 19.9229 26.1 19.2118L19.9412 11" stroke="#383838" stroke-width="2"/>
+        </g>
+        <defs>
+            <filter id="filter0_d" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            </filter>
+        </defs>
+    </symbol>
 </svg>
 <div class="trip-house-container">
 
-    <div class="upper-part">
+    <div class="ig-col-12 upper-part">
         <span><svg class="trip-house-logo"><use href = "#logo"/></svg></span>
-        <span class = "text-with-rect">
+        <span class="stays-and-attractions-cont">
         <span class="upper-text first-upper-text">Stays</span>
-        <label class="trip-house-rectangle"></label>
-        </span>
         <span class="upper-text second-upper-text">Attractions</span>
         <span><svg class="night-img"><use href = "#night"/></svg></span>
         <span><svg class="account-circle"><use href = "#account-circle"/></svg></span>
+        </span>
     </div>
 
     <div class="main-text-wrapper">
@@ -115,18 +130,19 @@
     </div>
 
     <div class="button-container">
+        <span class="inner-button-container">
         <span>
             <img class="google-play-img" src="images/google-play-badge.svg" alt="google play download pic"/>
         </span>
         <span>
             <svg class="app-store-img"><use href = "#app-store" /></svg>
         </span>
+        </span>
     </div>
 </div>
 <div class="container-wrapper">
     <div class="header-wrapper">
         <label class="offer-text">What do we offer</label>
-        <p class="rectangle"></p>
     </div>
 
     <div class="offer-container">
@@ -141,6 +157,44 @@
         </span>
         <span class="img-span img4">
         <svg class="ig-col-1 img img4"><use href = "#like"/></svg>
+        </span>
+    </div>
+</div>
+<div class="home-container">
+    <div class="home-container-wrapper">
+        <label class="homes-main-text">Homes guests love</label>
+    </div>
+
+    <div class="home-pics-container">
+        <span>
+        <img id = "home1" class = "ig-col-3 sm-col-3" src="images/home1.png" alt="home pic"/>
+            <label for = "home1" class="_text_decoration">
+                <pre class="_text_decoration _blue home1-label-first">Hotel Leopold</pre>
+                <pre class="_text_decoration _grey home1-label-sec">Saint Petersburg, Russia</pre>
+            </label>
+        </span>
+        <span>
+        <span class = "home2-with-arrow"><img id = "home2" class = "ig-col-3 sm-col-3" src="images/home2.png" alt="home pic"/>
+            <svg class="arrow2 arrow"><use href = "#arrow"/></svg></span>
+            <label for = "home2">
+                <pre class="_text_decoration _blue home2-label-first">Apartment Sunshine</pre>
+                <pre class="_text_decoration _grey home2-label-sec">Santa  Cruz de Tenerife, Spain</pre>
+            </label>
+        </span>
+        <span class="home3-container">
+        <img id = "home3" class = "ig-col-3" src="images/home3.png" alt="home pic"/>
+            <label for = "home3">
+                <pre class="_text_decoration _blue home3-label-first">Villa Kunerad</pre>
+                <pre class="_text_decoration _grey home3-label-sec">Vysokie Tatry, Slowakia</pre>
+            </label>
+        </span>
+        <span class="home4-container">
+        <span class = "home4-with-arrow"><img id = "home4" class = "ig-col-3" src="images/home4.png" alt="home pic"/>
+            <svg class="arrow4 arrow"><use href = "#arrow"/></svg></span>
+            <label for = "home4">
+                <pre class="_text_decoration _blue home4-label-first">Hostel Friendship</pre>
+                <pre class="_text_decoration _grey home4-label-sec">Berlin, Germany</pre>
+            </label>
         </span>
     </div>
 </div>
