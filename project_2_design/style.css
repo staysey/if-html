@@ -12,11 +12,29 @@
     font-weight: 500;
     src: url(fonts/Roboto-Medium.woff2) format('woff2');
 }
+:root{
+    --ig-col-width: 7.14vw;
+}
 
 body{
     margin: 0 auto;
     font-family: 'Roboto';
 }
+
+.ig-col-1{ width: var(--ig-col-width); }
+.ig-col-2{ width: calc(var(--ig-col-width)*2); }
+.ig-col-3{ width: calc(var(--ig-col-width)*3); }
+.ig-col-4{ width: calc(var(--ig-col-width)*4); }
+.ig-col-5{ width: calc(var(--ig-col-width)*5); }
+.ig-col-6{ width: calc(var(--ig-col-width)*6); }
+.ig-col-7{ width: calc(var(--ig-col-width)*7); }
+.ig-col-8{ width: calc(var(--ig-col-width)*8); }
+.ig-col-9{ width: calc(var(--ig-col-width)*9); }
+.ig-col-10{ width: calc(var(--ig-col-width)*10); }
+.ig-col-11{ width: calc(var(--ig-col-width)*11); }
+.ig-col-12{ width: calc(var(--ig-col-width)*12); }
+.ig-col-13{ width: calc(var(--ig-col-width)*13); }
+.ig-col-14{ width: 100vw; }
 
 .svg-container{
     display: none;
@@ -24,7 +42,7 @@ body{
 .trip-house-container{
     background-image: url("images/castelmezzano.jpg");
     background-position: 50% 0%;
-    min-height: 100vh;
+    min-height: 900px;
     min-width: 1440px;
 }
 
@@ -115,7 +133,6 @@ body{
     display: flex;
     align-items: center;
     background-color: white;
-    width: 1190px;
     height: 67px;
     border-radius: 8px;
 }
@@ -132,7 +149,6 @@ input{
 }
 
 .rect-for-first-label{
-    width: 467px;
     height: 64px;
 }
 
@@ -144,7 +160,6 @@ input{
 .rect-for-sec-label{
     display: flex;
     align-items: center;
-    width: 259px;
     height: 64px;
     border: 3px solid #F5BD41;
     border-radius: 8px;
@@ -155,7 +170,6 @@ input{
 }
 
 .rect-for-third-label{
-    width: 305px;
     height: 64px;
 }
 
@@ -166,8 +180,7 @@ input{
 
 .rect-for-fourth-label{
     display: flex;
-    align-items: center;
-    width: 195px;
+    justify-content: space-around;
     height: 70px;
     background: #3077C6;
     border: 3px solid #3077C6;
@@ -182,9 +195,9 @@ input{
 
 .fourth-rect-text{
     color: white;
-    padding-left: 57px;
     font-weight: 500;
     font-size: 20px;
+    padding-top: 20px;
 }
 
 .button-container{
@@ -240,6 +253,10 @@ input{
     .end-text{
         padding-left: 103px;
     }
+    .img1::after{ padding-top: 60px; }
+    .img2::after{ padding-top: 60px; }
+    .img3::after{ padding-top: 60px; }
+    .img4::after{ padding-top: 60px; }
 
 }
 ._alignment{
@@ -257,11 +274,35 @@ input{
 
 .img{
    margin: 0 auto;
+   height: 90px;
 }
 
-#img3{
-    width: 100px;
-    height: 68px;
+.img-span{
+    text-align: center;
+}
+
+.img1::after{
+    content: "Support 24/7";
+    text-align: center;
+    display: block;
+}
+
+.img2::after{
+    content: "Communicate directly";
+    text-align: center;
+    display: block;
+}
+
+.img3::after{
+    content: "Book online";
+    text-align: center;
+    display: block;
+}
+
+.img4::after{
+    content: "Real guest reviews";
+    text-align: center;
+    display: block;
 }
 
 .footer{
