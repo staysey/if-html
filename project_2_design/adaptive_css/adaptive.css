@@ -88,4 +88,19 @@
     .homes-main-text{
         font-size: 30px;
     }
+    .dest-main-text{
+        font-size: 30px;
+    }
+    .dest3{
+        display: none;
+    }
+    .dest4{
+        display: none;
+    }
+    .sm-text{
+        font-size: 20px;
+    }
+    .sign-up-wrapper{
+        display: none;
+    }
 }
