@@ -28,6 +28,7 @@ body{
 .trip-house-container{
     background-image: url("images/castelmezzano.jpg");
     background-position: 50% 0%;
+    background-size: cover;
     min-height: 900px;
     min-width: 1440px;
 }
