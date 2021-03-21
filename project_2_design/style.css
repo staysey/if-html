@@ -113,12 +113,8 @@ body{
 }
 .bottom-first-text{
     padding-left: 128px;
-    padding-right: 221px;
-    min-width: 246px;
 }
-.bottom-second-text{
-    min-width: 173px;
-}
+
 .bottom-rect-part{
     padding-left: 104px;
     padding-right: 104px;
