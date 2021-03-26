@@ -317,12 +317,15 @@ input{
     width: 26px;
     height: 26px;
 }
-.sign-up-container-bottom{
+.sign-up-container-components{
     display: flex;
     flex-flow: row;
     align-items: center;
-    height: 150px;
+    padding-left: 24px;
+    padding-bottom: 30px;
 }
+
+
 .sign-up-text-cont{
     padding-left: 20px;
     height: calc(48px + 20px + 15px);
