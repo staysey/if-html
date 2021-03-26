@@ -8,6 +8,153 @@
     .sm-col-5{ width: calc(var(--sm-col-width)*5); }
     .sm-col-6{ width: calc(var(--sm-col-width)*6); }
 
+    .sm-trip-house-container{
+        background-image: url("../images/castelmezzano.jpg");
+        background-position: 50% 0%;
+        background-size: cover;
+    }
+    .sm-upper-part{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sm-icons{
+        display: flex;
+        align-items: center;
+        padding-right: 50px;
+    }
+    .sm-trip-house-logo{
+        padding-left: 50px;
+        height: 40px;
+        width: 200px;
+    }
+    .sm-night-img{
+        height: 30px;
+        width: 30px;
+    }
+    .sm-account-circle{
+        height: 30px;
+        width: 30px;
+    }
+    .sm-menu{
+        height: 20px;
+        width: 30px;
+    }
+    ._padding{
+        padding-left: 15px;
+    }
+
+    .sm-main-text-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sm-main-text{
+        font-family: 'Roboto';
+        color: white;
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .sm-check-in-container-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sm-check-in-container{
+       background-color: #F5BD41;
+    }
+    .sm-dest-search-cont{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .sm-search-input::placeholder{
+        background-position: 10px;
+        background-image: url("../images/find.svg");
+        background-repeat: no-repeat;
+        background-size: 20px;
+        padding-left: 40px;
+        color: black;
+        font-family: Roboto;
+        font-weight: 500;
+    }
+    .sm-search-input, .sm-room-input{
+        width: calc(var(--sm-col-width)*6 - 20px);
+        height: 50px;
+        font-size: 20px;
+     }
+     .check-in-btn, .check-out-btn{
+         border-width: 0px;
+         background-color: white;
+         font-weight: 400;
+         font-size: 20px;
+     }
+     .sm-check-in, .sm-check-out{
+         width: calc(var(--sm-col-width)*3 - 20px);
+         background-color: white;
+         height: 50px;
+         border-radius: 8px;
+         display: flex;
+         justify-content: space-around;
+         flex-flow: column;
+     }
+     .sm-check-cont{
+         padding-top: 10px;
+         display: flex;
+         justify-content: space-around;
+     }
+      .not-active{
+         display: none;
+     }
+    .check-in-btn:hover + .not-active{
+        justify-content: flex-start;
+        display: inline-block;
+    }
+    .check-out-btn:hover + .not-active{
+        justify-content: flex-start;
+        display: inline-block;
+    }
+    .sm-room-cont, .sm-search-btn-cont{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .sm-room-input::placeholder{
+        padding-left: 40px;
+        color: black;
+        font-family: Roboto;
+        font-weight: 500;
+    }
+
+    .sm-search-btn{
+        background-color: #3077C6;
+        width: calc(var(--sm-col-width)*6 - 20px);
+        height: 50px;
+        border-radius: 8px;
+        border-width: 0px;
+    }
+    .sm-search-btn-cont {
+        padding-bottom: 10px;
+    }
+
+    .sm-search-text{
+        font-size: 20px;
+        color: white;
+    }
+    .sm-button-container{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .sm-google-play-img, .sm-app-store-img{
+        width: 150px;
+        height: 45px;
+    }
+    .sm-app-store-img{
+        padding-left: 10px;
+    }
+
     .offer-container{
         display: flex;
         flex-direction: column;
@@ -110,6 +257,65 @@
         display: none;
     }
     .dest-pics-container{
+        padding-bottom: 40px;
+    }
+    ._hide{
+        display: none;
+    }
+    .guest-main-text{
+        font-size: 30px;
+    }
+    .guest-container{
+        background-color: #EAF0F9;
+    }
+
+    .hotel-name-1, .hotel-name-2, .text-part, .name-and-country-cont, .rate-label{
+        font-size: 20px;
+    }
+
+    .hotel-name-1{
+        font-weight: 500;
+    }
+    .rate-cont{
+        display: flex;
+        flex-flow: column;
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+
+    .rate1{
+        width: 55px;
+        height: 50px;
+        padding-bottom: 3px;
+        align-self: flex-end;
+    }
+    .account-part{
+        height: 75px;
+        align-items: center;
+    }
+    .review-circle{
+        height: 75px;
+        width: 75px;
+    }
+    .points-cont{
+        padding-top: 20px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+    .point{
+        height: 10px;
+        width: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    .point1{
+        background-color: black;
+    }
+
+    .guest-pics-container{
         padding-bottom: 40px;
     }
 }

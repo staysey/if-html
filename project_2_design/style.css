@@ -342,6 +342,139 @@ input{
 }
 
 
+.guest-container-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.guest-main-text{
+    font-weight: 500;
+    padding-bottom: 105px;
+}
+
+.guest-pics-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+._guest-background{
+    background-color: #EAF0F9;
+}
+.guest1{
+    position: relative;
+    z-index: 1;
+}
+.bottom-pic-text-cont{
+    display: flex;
+    height: 45px;
+    background-color: rgba(56,56,56,0.7);
+    position: absolute;
+    margin-top: -50px;
+    z-index: 2;
+}
+._change-height{
+    margin-top: -45px;
+}
+._guest-pic-text{
+    padding-top: 15px;
+    padding-left: 25px;
+    color:white;
+    font-weight: 400;
+}
+._guest-pic-text-bold{
+    padding-top: 15px;
+    color:white;
+    font-weight: 500;
+}
+
+.name-and-rate-part{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.hotel-name-cont{
+    padding-left: 25px;
+    padding-top: 25px;
+    display: flex;
+    flex-flow: column;
+}
+.hotel-name-1{
+    padding-bottom: 15px;
+}
+._hotel-color{
+    color: #3077C6;
+}
+.rate1, .rate2, .rate3{
+    width: 48px;
+    height: 32px;
+    padding-bottom: 8px;
+    align-self: flex-end;
+}
+.rate-cont{
+    display: flex;
+    flex-flow: column;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+.rate-label{
+    color: #BFBFBF;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.rate2-cont{
+    display: flex;
+    text-align: right;
+}
+.account-part{
+    padding-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+.review-circle{
+    height: 64px;
+    width: 64px;
+}
+
+.acc-pic-cont{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.name-and-country-cont{
+    display: flex;
+    flex-flow: column;
+}
+
+.country{
+    padding-top: 8px;
+    width: 80px;
+    height: 20px;
+}
+.countryUSA{
+    padding-top: 8px;
+    width: 57px;
+    height: 20px;
+}
+.text-part{
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.guest-arrow{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: -25px;
+}
+
 .header-wrapper{
     display: flex;
     flex-flow: column;
@@ -419,8 +552,19 @@ input{
     .dest-main-text{
         font-size: 20px;
     }
+    .guest-main-text{
+        font-size: 20px;
+    }
     .book-now{
         margin-left: -65%
+    }
+    .guest3-with-arrow{
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+    ._hide-adaptive{
+    display: none;
     }
 
 }
