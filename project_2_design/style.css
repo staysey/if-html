@@ -195,6 +195,7 @@ input{
     display: flex;
     justify-content: space-around;
     padding-top: 120px;
+    padding-left: 104px;
 }
 .google-play-img{
     padding-right: 17px;
